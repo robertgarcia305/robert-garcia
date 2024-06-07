@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "roboto-medium";
+    src: url("fonts/Roboto-Medium.ttf")
+}
+
+@font-face {
+    font-family: "roboto-reg";
+    src: url("fonts/Roboto-Regular.ttf")
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: roboto-medium;
+}
+
+p {
+    color: white;
+    font-family: roboto-reg;
+}
+
+img {
+    width: 300px;
+    border-radius: 200px;
+}
+
+.body-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
